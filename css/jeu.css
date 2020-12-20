@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family:SF Distant Galaxy;
+    src: url("../police/SF Distant Galaxy.ttf");
+}
+#menu {
+    margin-bottom: 5%;
+    padding: 1%;
+    padding-top: 20px;
+    text-align: center;
+}
+#menu a{
+    font-family: "SF Distant Galaxy";
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+#menu a:hover{
+    color: black;
+    transition: 0.5s;
+    background-color: white;
+}
+
+#questionnaire {
+    background: url("../img/etoilenoir.jpg");
+    background-attachment: initial;
+    background-repeat: no-repeat;
+    height: 900px;
+    color: white;
+}
+
+#personnage {
+    margin-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 30px;
+    margin-top: 5px;
+    font-family: "SF Distant Galaxy";
+}
+.submit{
+    margin: 10px;
+}
+.reset{
+    margin-left: 20px;
+}
+
+#boutons{
+    margin-left: 300px;
+    margin-right: 300px;
+    border: 3px solid white;
+    border-radius: 15px;
+    padding: 15px;
+    font-family: "SF Distant Galaxy";
+    text-align: center;
+}
+#boutons button{
+    margin-top: 10px;
+    padding: 10px;
+    font-family: "SF Distant Galaxy";
+    font-size: 20px;
+}
+
+#boutons button:hover{
+    color: white;
+    background-color: black;
+    transition: 0.4s;
+}
+#sabrelaser {
+    padding-bottom: 35px;
+}
+
+#tri{
+    margin-top: 15px;
+}
+
+#resultat {
+    text-align: center;
+    color: white;
+    font-family: "SF Distant Galaxy";
+    margin: 15px;
+    margin-top: 20px;
+    margin-right: 300px;
+    margin-left: 300px;
+    padding:15px;
+    border: 2px solid white;
+    border-raius: 15px;
+}

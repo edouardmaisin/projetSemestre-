@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family:SF Distant Galaxy;
+    src: url("../police/SF Distant Galaxy.ttf");
+}
+
+body{
+    background-color: black;
+}
+#hero {
+    background: url("../img/vador.jpg");
+    background-attachment: initial;
+    background-repeat: no-repeat;
+    margin-bottom: 15px;
+}
+#navigation{
+    background-color: rgba(43,102,236, 0.5);
+    text-align: center;
+    padding: 2%;
+}
+
+#recherche{
+    float: right;
+    color: white;
+}
+
+#navigation img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width : 150px;
+}
+
+#navigation a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 220px;
+    color: white;
+    font-family: "SF Distant Galaxy";
+}
+#navigation a:hover{
+    color: cyan;
+    transition: 0.3s;
+}
+#bandeau {
+    background-color: rgba(43,102,236,0.4);
+    margin-top: 10%;
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 20px;
+    border: 5px solid white;
+}
+
+#contenu {
+    text-align: center;
+    font-size: 20px;
+    font-family: "SF Distant Galaxy";
+    padding: 20%;
+}
+
+#contenu a:hover{
+    color: cyan;
+    transition: 0.3s;
+}
+.main{
+    margin:20px;
+}
+#mainbouton{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 20px;
+    font-size: 30px;
+    background-color: black;
+    font-family: "SF Distant Galaxy";
+}
+/* transitions de liens !!!*/
+
+#intro{
+    display: flex;
+}
+
+#intrologo{
+    flex: 1;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+#introtexte{
+    flex: 2;
+    color: white;
+    font-size: 20px;
+    text-overflow: unset;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: "SF Distant Galaxy";
+}
